@@ -1,0 +1,103 @@
+.nav-bar{
+   
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+   
+    align-items: center;
+    border-color: black;
+    border-width: 5mm;
+    
+
+
+}
+
+#logo{
+    margin-left: 0;
+}
+
+
+   
+
+#article{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    
+    
+
+
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 100px;
+
+}
+
+#Pannier{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    
+    
+
+}
+
+#Nb-pannier{
+
+    margin-left: 15%;
+    background-color: aquamarine;
+
+}
+
+  
+.PR{
+    border-radius: 2%;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(204, 202, 204);
+    padding: 2%;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 6%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+#bar-article{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.produit{
+
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+#FAV{
+    font-size: 5mm;
+}
